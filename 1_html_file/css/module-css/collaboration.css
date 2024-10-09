@@ -105,7 +105,16 @@
     font-weight: 500;
     line-height: 58px;
     margin-top: 19px;
+    padding: 0px 20px;
 }
+
+.collaboration-one__text {
+    color: var(--thm-gray);
+    font-size: 24px;
+    margin-top: 19px;
+    padding: 0px 20px;
+}
+
 
 .collaboration-one__icon-box {
     position: relative;
@@ -261,7 +270,7 @@
 }
 
 .collaboration-one .solutions-three__content {
-    width: 600px;
+    width: 50%;
     position: relative;
     display: inline-block;
     vertical-align: middle;

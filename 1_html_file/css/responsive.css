@@ -504,6 +504,19 @@
 
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) {
+	.feature-one__single {
+		display: none;
+	}
+
+	.feature-one__btn-box {
+		margin-bottom: 32px;
+	}
+
+	.feature-one__rating-box {
+		margin-top: 20px;
+		margin-left: 0px;
+	}
+
 	.feature-one__rating {
 		flex-direction: column;
 		align-items: baseline;
@@ -587,7 +600,11 @@
 	}
 
 	.collaboration-one__inner {
-		padding: 120px 0 120px;
+		padding: 40px 0 40px;
+	}
+
+	.collaboration-one .solutions-three__content {
+		width: 80%;
 	}
 
 	.collaboration-one__icon-box {
@@ -1110,6 +1127,10 @@
 
 	.full-height {
 		height: auto;
+	}
+
+	.collaboration-one__text {
+		font-size: 16px;
 	}
 
 
